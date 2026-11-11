@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pill Land privacy policy</title>
+  <style>
+:root { --bg:#06121c; --text:#e8fff6; --muted:#8fb8ab; --accent:#6EE7C0; --line:#1b3a3a; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 17px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+header { padding-top: 28px; padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 36px; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.brand { font-weight: 650; letter-spacing: 0.01em; color: var(--text); }
+.brand:hover { text-decoration: none; }
+nav { display: flex; gap: 18px; font-size: 0.95rem; }
+main { padding-bottom: 48px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 12px; font-weight: 700; }
+h2 { font-size: 1.15rem; margin: 2rem 0 0.6rem; color: var(--accent); font-weight: 650; }
+.lede, .muted, footer { color: var(--muted); }
+.lede { margin: 0 0 1.2rem; }
+p { margin: 0 0 1rem; }
+ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+li { margin: 0 0 0.55rem; }
+strong { color: #fff; font-weight: 650; }
+.btn {
+  display: inline-block;
+  margin: 8px 0 24px;
+  padding: 10px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  color: var(--bg);
+  background: var(--accent);
+  font-weight: 650;
+}
+.btn:hover { text-decoration: none; filter: brightness(1.08); }
+footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; font-size: 0.92rem; }
+</style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="../">Pill Land</a>
+    <nav>
+      <a href="../privacy/">Privacy</a>
+      <a href="../support/">Support</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Pill Land privacy policy</h1>
+    <p class="lede">Pill Land, part of the <a href="https://vedrino.website">Vedrino</a> project. Published by Minimal Studio.</p>
+    <p>Last updated: 11 November 2026 (version 2.2)</p>
+    <p>Short version: Pill Land does not collect anything about you. Your data stays on your PC. The only things that ever go over the network are the optional weather lookup (just the city you type) and, in the Store version, the Microsoft Store when you look at, start or check your Pro subscription.</p>
+
+    <h2>What the app touches on your PC</h2>
+    <ul>
+      <li><strong>What is playing.</strong> Pill Land reads the title, artist, album art and playback position that your media apps share with Windows, so it can show them in the pill. This is only kept in memory.</li>
+      <li><strong>Clipboard.</strong> If you keep clipboard history turned on, the text and images you copy are saved in a folder on your PC (%LOCALAPPDATA%\PillLand) so you can find them later. Anything a password manager marks as private is skipped. You can clear it from the app or turn the feature off.</li>
+      <li><strong>File shelf.</strong> When you drop files on the pill, Pill Land remembers where those files are. It does not copy, upload or read the files themselves.</li>
+      <li><strong>Calendar.</strong> In the Store version, if you allow it, Pill Land reads your upcoming events from the Windows calendar to show them on the Today card. Events are shown, never stored or sent anywhere.</li>
+      <li><strong>Battery, volume and Caps Lock.</strong> Read live so the app can show a quick pop. Not stored.</li>
+      <li><strong>Planner.</strong> Tasks, habits, journal entries, classes, notes and focus history are saved in planner.json in the same folder. You can export, import or delete it any time.</li>
+      <li><strong>Focus app blocking.</strong> Only if you turn it on: during a focus round Pill Land looks at the names of running apps and minimises (or closes, if you chose that) the ones on your list. Nothing is recorded.</li>
+      <li><strong>Screenshots.</strong> If the screenshot shelf is on, Pill Land notices new files in Pictures\Screenshots and adds their location to the shelf. The images are not read, copied or uploaded.</li>
+      <li><strong>Voice commands.</strong> Only when you press the mic button or Ctrl+Alt+V, Pill Land listens for one short command using the speech recogniser built into Windows, on your PC. It only understands a small set of Pill Land commands. Audio is never saved or sent anywhere.</li>
+      <li><strong>Screen recording.</strong> Only when you press Start recording in Tools. Pill Land records the screen or the one window you pick (and the system sound, if you leave Audio on) into an MP4 in the folder you choose. Recordings stay on your PC and are never uploaded.</li>
+      <li><strong>PDF tools.</strong> Pictures to PDF, merge and remove pages work on the files you pick and save new files where you say. Nothing is uploaded.</li>
+      <li><strong>Your sounds.</strong> Sound files you add are copied into the same local folder. They are only played, never uploaded.</li>
+      <li><strong>Settings.</strong> Your choices are saved in the same local folder.</li>
+    </ul>
+
+    <h2>What the app does not do</h2>
+    <ul>
+      <li>No account or sign in</li>
+      <li>No analytics, telemetry, crash reporting or tracking of any kind</li>
+      <li>No ads</li>
+      <li>No network requests except the two below, both of which you control.</li>
+      <li>Nothing is sold or shared with anyone</li>
+    </ul>
+
+    <h2>The only network requests</h2>
+    <ul>
+      <li><strong>Weather (optional, off by default).</strong> When you turn it on and type a city, Pill Land asks Open-Meteo (open-meteo.com) for that city's location and then for the forecast at that spot, about every 30 minutes. Only the city name and its rough coordinates are sent. No account, no key, nothing about you.</li>
+      <li><strong>Microsoft Store (Store version only).</strong> To show the Pro monthly price and check whether your Pro subscription is active, Pill Land uses the Windows Store API. Subscribing, billing, renewals and cancelling are handled entirely by Microsoft under the Microsoft privacy statement. Pill Land never sees payment details. The app only keeps "Pro on or off" and the date your paid month ends, on your PC, so it keeps working for a short time offline.</li>
+    </ul>
+
+    <h2>Removing your data</h2>
+    <p>Uninstall Pill Land and delete the %LOCALAPPDATA%\PillLand folder. That's everything.</p>
+
+    <h2>Kids</h2>
+    <p>Pill Land does not collect personal information from anyone, including children.</p>
+
+    <h2>Changes</h2>
+    <p>If this ever changes, this page will be updated before the app does.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Email <a href="mailto:pillland@vedrino.website">pillland@vedrino.website</a> (Minimal Studio).</p>
+  </main>
+  <footer>
+    <p>Pill Land is part of the <a href="https://vedrino.website">Vedrino</a> project. Published by Minimal Studio.</p>
+  </footer>
+</body>
+</html>
