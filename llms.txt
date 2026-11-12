@@ -2,7 +2,7 @@
 
 Pill Land has moved. The official Pill Land site is https://vedrino.website/pill-land
 
-Pill Land is Dynamic Island for Windows, a Windows 10 and 11 productivity app by Minimal Studio, and phase one of Project Vedrino (https://vedrino.website). It is coming soon to the Microsoft Store.
+Pill Land is Dynamic Island for Windows, a Windows 10 and 11 productivity app by Minimal Studio Lab, and phase one of Project Vedrino (https://vedrino.website). It is coming soon to the Microsoft Store.
 
 ## Still on this site
 
