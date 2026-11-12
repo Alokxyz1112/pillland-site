@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alokxyz1112.github.io/pillland-site/sitemap.xml

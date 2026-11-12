@@ -1,0 +1,36 @@
+# Pill Land
+
+Pill Land is Dynamic Island for Windows. It is a free Windows productivity app by Minimal Studio, and phase one of the Vedrino project (https://vedrino.website). Vedrino is an Android app. Pill Land is the Windows companion.
+
+Official site: https://alokxyz1112.github.io/pillland-site/
+Microsoft Store: https://apps.microsoft.com/detail/9NPP7XF5Q45S
+Support: pillland@vedrino.website
+Publisher: Minimal Studio
+
+## What it is
+
+A live notch (a Dynamic Island style pill) at the top of the screen on Windows 10 and Windows 11 laptops and desktops. It shows what's playing, timers, and what's next in your day. Hover it and it opens into music controls, a focus timer, a Today card and a small planner.
+
+## Main features
+
+- Dynamic Island for Windows, a live notch or capsule
+- App shortcut launcher and desktop shortcuts organizer: pin apps, files and folders, open them from an icon grid or the Ctrl+Alt+Space quick launcher
+- Planner with natural language add, habits, journal, class timetable and meetings
+- Pomodoro, focus timer and study timer
+- Screen recorder (4K) and PDF tools
+- Now playing, clipboard history, file shelf
+- Works on Windows 10 (version 2004 / build 19041 and later) and Windows 11
+
+## Price
+
+Free, including Pro features (app and site blocking, extra themes, advanced stats) during launch. Early users will keep a lower price when a monthly plan starts later.
+
+## Privacy
+
+Everything stays on the PC. No account, no ads, no tracking. Optional weather sends only the city name to Open-Meteo. The Microsoft Store version talks to the Store for licensing and, if the user agrees, a rating prompt.
+
+## Related
+
+Part of the Vedrino project: https://vedrino.website
+Privacy policy: https://alokxyz1112.github.io/pillland-site/privacy/
+Support: https://alokxyz1112.github.io/pillland-site/support/
